@@ -93,11 +93,11 @@ sys_uptime(void)
 int
 sys_settickets(void)
 {
-  return sys_settickets();
+  return settickets();
 }
 
 int
 sys_getpinfo(void)
 {
-  return sys_getpinfo();
+  return getpinfo();
 }
