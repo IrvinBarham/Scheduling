@@ -89,7 +89,7 @@ sys_uptime(void)
   return xticks;
 }
 
-
+/*
 int
 sys_settickets(void)
 {
@@ -101,3 +101,4 @@ sys_getpinfo(void)
 {
   return getpinfo();
 }
+*/
