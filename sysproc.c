@@ -6,7 +6,6 @@
 #include "memlayout.h"
 #include "mmu.h"
 #include "proc.h"
-
 int
 sys_fork(void)
 {
@@ -88,4 +87,17 @@ sys_uptime(void)
   xticks = ticks;
   release(&tickslock);
   return xticks;
+}
+
+
+int
+sys_settickets(void)
+{
+  return sys_settickets();
+}
+
+int
+sys_getpinfo(void)
+{
+  return sys_getpinfo();
 }
